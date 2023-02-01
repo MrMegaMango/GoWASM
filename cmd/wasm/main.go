@@ -20,6 +20,6 @@ func main() {
 func SaySomething() js.Func {
 	return js.FuncOf(func(this js.Value, args []js.Value) interface{} {
 		fmt.Println("something woo woo")
-		return `<h4> h4 h4 h4 </h4>`
+		return `<h4>Go logic is called</h4>`
 	})
 }
